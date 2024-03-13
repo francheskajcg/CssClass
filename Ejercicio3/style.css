@@ -1,0 +1,61 @@
+@media (max-width: 400px){
+
+body{
+    background-image: url(assest/background.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    }
+}
+
+
+#container_1{
+
+display: flex;
+justify-content: space-around;
+flex-direction: row-reverse;
+align-items: center;
+
+img{
+    border-radius: 50%;
+}
+
+h1{
+    color: 092040;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+}
+}
+#container_2{
+p{
+    color: 092040;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+}
+
+#container_3{
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    width: 100%;
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+}
